@@ -1,0 +1,1410 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container-fluid {
+    max-width: 3000px;
+
+}
+
+                                        /* navigation (navbar) start */
+#navbar nav {
+    width: 100%;
+    padding: 0;
+    position: fixed;
+    z-index: 200000;
+    color: rgb(1, 1, 68);
+}
+
+
+.navbar-light .navbar-toggler-icon {
+    width: 0.7em;
+    height: 0.7em;
+}
+
+
+nav button #ikon {
+    color: black;
+}
+
+
+nav #brand {
+    color: crimson;
+    font-weight: 500;
+}
+
+
+nav .nav-link {
+    font-size: 20px;
+    color: crimson !important;
+    font-weight: 500;
+    position: relative;
+
+}
+
+
+nav .nav-link::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 1px;
+    background-color: crimson;
+    transition: all 0.5s ease;
+    transform: scale(0);
+}
+
+nav .nav-link:hover::before {
+    transform: scale(1);
+}
+
+
+#navbar #forimg img {
+    margin-left: 28rem;
+}
+
+.img img {
+    width: 90px;
+}
+
+
+
+
+                                        /*  navigation (navbar) end */
+
+
+
+
+                                            /* slide start */
+
+#slide {
+    width: 100%;
+    height: 92vh;
+}
+
+#mycarousel {
+    margin-top: 2rem;
+    width: 100%;
+    height: 100%;
+    opacity: 95%;
+    border-radius: 10px;
+}
+
+.slide22 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(0 24%, 0 0, 100% 0, 100% 81%);
+    background: linear-gradient(45deg, rgba(146, 30, 111, 0.445), rgba(43, 43, 156, 0.438));
+}
+
+.carousel-item .x {
+    width: 100%;
+    height: 70vh;
+    border-radius: 20px;
+}
+
+
+
+.carousel-control-prev {
+    background-color: rgba(128, 128, 128, 0.39);
+    height: 4vh;
+    width: 90px;
+    margin: auto;
+    margin-left: 3rem;
+    border-radius: 20px;
+}
+
+.carousel-control-next {
+    background-color: rgba(128, 128, 128, 0.39);
+    height: 4vh;
+    width: 90px;
+    margin: auto;
+    margin-right: 3rem;
+    border-radius: 20px;
+}
+
+#slide .carousel-caption {
+    position: absolute;
+    margin-left: 4rem;
+    display: block;
+    bottom: 5%;
+    left: -53%;
+}
+
+.slide22 {
+    background: linear-gradient(180deg, rgb(2, 158, 255), rgb(0, 162, 255));
+    webkit-clip-path: polygon(100% 0, 0 0, 0 77.5%, 1% 77.4%, 2% 77.1%, 3% 76.6%, 4% 75.9%, 5% 75.05%, 6% 74.05%, 7% 72.95%, 8% 71.75%, 9% 70.55%, 10% 69.3%, 11% 68.05%, 12% 66.9%, 13% 65.8%, 14% 64.8%, 15% 64%, 16% 63.35%, 17% 62.85%, 18% 62.6%, 19% 62.5%, 20% 62.65%, 21% 63%, 22% 63.5%, 23% 64.2%, 24% 65.1%, 25% 66.1%, 26% 67.2%, 27% 68.4%, 28% 69.65%, 29% 70.9%, 30% 72.15%, 31% 73.3%, 32% 74.35%, 33% 75.3%, 34% 76.1%, 35% 76.75%, 36% 77.2%, 37% 77.45%, 38% 77.5%, 39% 77.3%, 40% 76.95%, 41% 76.4%, 42% 75.65%, 43% 74.75%, 44% 73.75%, 45% 72.6%, 46% 71.4%, 47% 70.15%, 48% 68.9%, 49% 67.7%, 50% 66.55%, 51% 65.5%, 52% 64.55%, 53% 63.75%, 54% 63.15%, 55% 62.75%, 56% 62.55%, 57% 62.5%, 58% 62.7%, 59% 63.1%, 60% 63.7%, 61% 64.45%, 62% 65.4%, 63% 66.45%, 64% 67.6%, 65% 68.8%, 66% 70.05%, 67% 71.3%, 68% 72.5%, 69% 73.6%, 70% 74.65%, 71% 75.55%, 72% 76.35%, 73% 76.9%, 74% 77.3%, 75% 77.5%, 76% 77.45%, 77% 77.25%, 78% 76.8%, 79% 76.2%, 80% 75.4%, 81% 74.45%, 82% 73.4%, 83% 72.25%, 84% 71.05%, 85% 69.8%, 86% 68.55%, 87% 67.35%, 88% 66.2%, 89% 65.2%, 90% 64.3%, 91% 63.55%, 92% 63%, 93% 62.65%, 94% 62.5%, 95% 62.55%, 96% 62.8%, 97% 63.3%, 98% 63.9%, 99% 64.75%, 100% 65.7%);
+    clip-path: polygon(100% 0, 0 0, 0 77.5%, 1% 77.4%, 2% 77.1%, 3% 76.6%, 4% 75.9%, 5% 75.05%, 6% 74.05%, 7% 72.95%, 8% 71.75%, 9% 70.55%, 10% 69.3%, 11% 68.05%, 12% 66.9%, 13% 65.8%, 14% 64.8%, 15% 64%, 16% 63.35%, 17% 62.85%, 18% 62.6%, 19% 62.5%, 20% 62.65%, 21% 63%, 22% 63.5%, 23% 64.2%, 24% 65.1%, 25% 66.1%, 26% 67.2%, 27% 68.4%, 28% 69.65%, 29% 70.9%, 30% 72.15%, 31% 73.3%, 32% 74.35%, 33% 75.3%, 34% 76.1%, 35% 76.75%, 36% 77.2%, 37% 77.45%, 38% 77.5%, 39% 77.3%, 40% 76.95%, 41% 76.4%, 42% 75.65%, 43% 74.75%, 44% 73.75%, 45% 72.6%, 46% 71.4%, 47% 70.15%, 48% 68.9%, 49% 67.7%, 50% 66.55%, 51% 65.5%, 52% 64.55%, 53% 63.75%, 54% 63.15%, 55% 62.75%, 56% 62.55%, 57% 62.5%, 58% 62.7%, 59% 63.1%, 60% 63.7%, 61% 64.45%, 62% 65.4%, 63% 66.45%, 64% 67.6%, 65% 68.8%, 66% 70.05%, 67% 71.3%, 68% 72.5%, 69% 73.6%, 70% 74.65%, 71% 75.55%, 72% 76.35%, 73% 76.9%, 74% 77.3%, 75% 77.5%, 76% 77.45%, 77% 77.25%, 78% 76.8%, 79% 76.2%, 80% 75.4%, 81% 74.45%, 82% 73.4%, 83% 72.25%, 84% 71.05%, 85% 69.8%, 86% 68.55%, 87% 67.35%, 88% 66.2%, 89% 65.2%, 90% 64.3%, 91% 63.55%, 92% 63%, 93% 62.65%, 94% 62.5%, 95% 62.55%, 96% 62.8%, 97% 63.3%, 98% 63.9%, 99% 64.75%, 100% 65.7%);
+    /* clip-path: polygon(30% 0%, 32% 4%, 36% 11%, 38% 17%, 35% 21%, 33% 26%, 30% 30%, 35% 34%, 41% 40%, 44% 47%, 45% 54%, 42% 62%, 37% 65%, 36% 69%, 38% 73%, 43% 78%, 45% 84%, 44% 90%, 39% 93%, 36% 100%, 0 100%, 0% 0%); */
+}
+
+#slide .carousel-inner img {
+    width: 100%;
+}
+
+
+#slide .carousel-caption h3,
+span {
+    font-size: 35px;
+}
+
+
+#slide .carousel-caption span {
+    color: crimson;
+}
+
+
+#slide {
+    position: relative;
+    z-index: 2;
+    padding-top: 6rem;
+}
+
+                                             /*  slide end */
+
+                                             /* tadbirlar start */
+
+#section-padding {
+    background-color: #ab9393;
+    margin-top: 5rem;
+    width: 100%;
+    height: fit-content;
+    padding-top: 100px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+#section-padding::before {
+    content: 'Tadbirlar';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: fit-content;
+    text-align: center;
+    font-size: 28px;
+    border-bottom-left-radius: 45px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(220, 20, 60, 0.63);
+}
+
+
+#section-padding .containerr {
+    position: absolute;
+    top: 0;
+    margin-top: -1.1rem;
+    margin-left: 2rem;
+}
+
+
+#section-padding .clippy {
+    position: absolute;
+    background-color: rgba(220, 20, 60, 0.336);
+    width: 100%;
+    top: 0;
+    height: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 4%, 0 90%);
+}
+
+
+.section-title h1 {
+    position: absolute;
+    z-index: -888;
+    left: -24%;
+    top: -93%;
+    color: rgba(255, 255, 255, 0.096);
+    font-size: 300px;
+    pointer-events: none;
+}
+
+.section-title p {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.774);
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.section-title span {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    display: inline-block;
+}
+
+
+#section-padding .line1:nth-child(1) {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border: 5px solid rgba(220, 20, 60, 0.671);
+    top: 80%;
+    left: -2%;
+    animation: anime2 7s linear infinite;
+}
+
+
+#section-padding .line1:nth-child(2) {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    top: 60%;
+    right: 10%;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 5px solid rgba(220, 20, 60, 0.671);
+    border-bottom: 5px solid transparent;
+    animation: anime2 7s linear infinite;
+}
+
+
+#section-padding .line1:nth-child(3) {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 40%;
+    right: calc(96% - 100%);
+    background-color: rgba(220, 20, 60, 0.671);
+    border-radius: 50%;
+    border-bottom: 5px solid transparent;
+    animation: anime3 10s linear infinite;
+}
+
+
+.section-title {
+    margin-bottom: 60px;
+}
+
+
+.section-title h2 span {
+    color: teal;
+}
+
+#lesson .lesson-item {
+    margin: 15px;
+}
+
+
+.gallary .img-fluid {
+    transition: all 0.3s ease;
+    border-radius: 8px;
+}
+
+
+.gallary .img-fluid:hover {
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+    box-shadow: 0px 10px 20px 0px rgba(59, 59, 59, 0.808);
+}
+
+.gallary video {
+    margin-top: 1rem;
+    border-radius: 8px;
+    margin-left: 15rem;
+}
+
+
+
+                                            /* tadbirlar end */
+
+                                            /* musobaqalar start */
+
+#musobaqalar {
+    position: relative;
+    margin-bottom: 5rem;
+    overflow: hidden;
+    background-color: #2a3d65;
+}
+
+#musobaqalar .containerr {
+    position: absolute;
+    top: 0;
+    margin-top: -1.1rem;
+    margin-left: 2rem;
+}
+
+#musobaqalar::before {
+    content: 'Musobaqalar';
+    text-align: center;
+    font-size: 28px;
+    border-bottom-left-radius: 45px;
+    color: rgba(255, 255, 255, 0.774);
+    position: absolute;
+    width: 200px;
+    height: fit-content;
+    background-color: #b1363e;
+    top: 0;
+    right: 0;
+}
+
+
+#musobaqalar::after {
+    position: absolute;
+    content: '';
+    width: 50%;
+    height: 100%;
+    clip-path: circle(50% at 91% 99%);
+    background-color: rgba(0, 128, 128, 0.164);
+    top: 10%;
+    right: -10%;
+    z-index: 1;
+}
+
+#musobaqalar .card {
+    border: none;
+}
+
+#musobaqalar .card-body {
+    background-color: #b1363e;
+    color: rgba(255, 255, 255, 0.774);
+    font-family: 'Open Sans', sans-serif;
+    word-wrap: break-word;
+    cursor: pointer;
+}
+
+#musobaqalar .section-title h1 {
+    position: absolute;
+    z-index: 3;
+    left: 22%;
+    top: -3%;
+    color: rgba(255, 255, 255, 0.096);
+    font-size: 150px;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+
+#musobaqalar .section-title p {
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.774);
+}
+
+
+#info-imgs .for-row .text-center {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+
+#info-imgs .for-row .text-center:nth-child(2):after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 0%;
+    background-color: rgba(0, 0, 0, 0.274);
+    height: 100%;
+    z-index: -1;
+    transition: all 0.3s ease;
+}
+
+
+#info-imgs .for-row .text-center:nth-child(3):after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0%;
+    background-color: rgba(0, 0, 0, 0.274);
+    height: 100%;
+    z-index: -1;
+    transition: all 0.3s ease;
+}
+
+
+#info-imgs .for-row .text-center:hover::after {
+    width: 100%;
+}
+
+
+#info-imgs .for-row h1 {
+    color: black;
+    opacity: .8;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.crimson2 {
+    color: teal;
+}
+
+
+#musobaqalar .projects {
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+
+#musobaqalar .for-row .project-img {
+    overflow: hidden;
+}
+
+
+#musobaqalar .project-img .card-img-top {
+    transition: 0.5s ease transform;
+
+}
+
+#musobaqalar #info-imgs .for-row .mb-4:hover .project-img .card-img-top {
+    transform: scale(1.1);
+}
+
+#musobaqalar #info-imgs .for-row .for-img:hover .project-img .card-img-top {
+    transform: scale(1.1);
+}
+
+
+#musobaqalar .line1:nth-child(1) {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border: 5px solid rgba(0, 128, 128, 0.445);
+    top: 90%;
+    left: -2%;
+    animation: anime2 7s linear infinite;
+}
+
+
+#musobaqalar .line1:nth-child(2) {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    top: 60%;
+    right: 9%;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 5px solid rgba(0, 128, 128, 0.445);
+    border-bottom: 5px solid transparent;
+    animation: anime2 7s linear infinite;
+}
+
+
+#musobaqalar .line1:nth-child(3) {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 40%;
+    right: calc(96% - 100%);
+    background-color: rgba(0, 128, 128, 0.445);
+    border-radius: 50%;
+    overflow: hidden;
+    animation: anime3 10s linear infinite;
+}
+
+                                                /* musobaqalar end*/
+
+                                                /* tanlovlar start */
+
+
+#projects {
+    background-color: #723f42;
+    position: relative;
+    z-index: -1;
+}
+
+#projects::before {
+    content: 'Tanlovlar';
+    text-align: center;
+    font-size: 28px;
+    border-bottom-left-radius: 45px;
+    color: rgba(255, 255, 255, 0.774);
+    position: absolute;
+    width: 200px;
+    height: fit-content;
+    background-color: #b1363e;
+    top: 0;
+    right: 0;
+}
+
+
+
+#projects .projects {
+    position: relative;
+    flex-direction: row;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+#projects .projects-header h1 {
+    position: absolute;
+    z-index: -888;
+    left: -4%;
+    top: -5%;
+    color: rgba(255, 255, 255, 0.096);
+    font-size: 300px;
+    pointer-events: none;
+
+}
+
+#porojects .all-projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#projects .project-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+#projects .project-info {
+    position: relative;
+    z-index: -33;
+    padding: 30px;
+    flex-basis: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #b1363e;
+    color: rgba(255, 255, 255, 0.774);
+    cursor: pointer;
+}
+
+#projects .project-item:nth-child(2) {
+    flex-basis: 50%;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+#projects .project-img {
+    position: relative;
+    z-index: -145555555;
+    bottom: 7%;
+    flex-basis: 50%;
+    width: 100%;
+    overflow: hidden;
+}
+
+                                             /* tanlovlar end */
+
+
+
+
+
+                                            /* ustozlar start */
+.section-titlee {
+    padding-top: 4rem;
+    letter-spacing: 0.1.5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(60deg, rgb(131, 2, 92)35%, rgb(0, 183, 255)60%, rgb(131, 2, 92)35%);
+    opacity: 97%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section-titlee h2 {
+
+    font-size: 50px;
+    pointer-events: none;
+}
+
+#ustozlar {
+    width: 100%;
+    height: 95vh;
+    position: relative;
+    z-index: 22;
+}
+
+#ustozlar::before {
+    content: 'Ustozlar';
+    text-align: center;
+    font-size: 28px;
+    border-bottom-left-radius: 45px;
+    color: rgba(255, 255, 255, 0.774);
+    position: absolute;
+    width: 200px;
+    height: fit-content;
+    top: 0;
+    right: 0;
+    background: linear-gradient(45deg, rgb(131, 2, 92)35%, rgb(0, 183, 255)60%, rgb(131, 2, 92)35%);
+}
+
+
+
+.testimonial-item {
+    z-index: 1;
+    position: relative;
+    margin: 15px;
+    padding: 30px;
+    border-radius: 10px;
+    transition: 0.2s ease-in;
+    background-color: white;
+    position: relative;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.testimonial-item2 {
+    position: relative;
+    padding-bottom: -4rem;
+    margin: 15px;
+    padding: 26px;
+    border-radius: 10px;
+    transition: 0.2s ease-in;
+    background-color: white;
+    position: relative;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.testimonial-item::before {
+    content: '';
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 30%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background: linear-gradient(45deg, rgb(131, 2, 92)35%, rgb(0, 183, 255)60%, rgb(131, 2, 92)35%);
+}
+
+.testimonial-item::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -1%;
+    z-index: -1;
+    width: 0px;
+    height: 0px;
+    background-color: red;
+    border-radius: 10px;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+}
+
+
+.testimonial-item2::before {
+    content: '';
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 30%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background: linear-gradient(45deg, rgb(131, 2, 92)35%, rgb(0, 183, 255)60%, rgb(131, 2, 92)35%);
+}
+
+
+.testimonial-item2 .img-box {
+    margin-left: 2rem;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 30px;
+    border: 4px solid gold;
+    border-radius: 50%;
+    position: relative;
+    z-index: 22;
+}
+
+.testimonial-item2 .img-box img {
+    text-align: center;
+    border-radius: 50%;
+    width: 100%;
+}
+
+
+.testimonial-item2 .img-box i {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background-color: gold;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+    left: calc(100% - 15px);
+    top: calc(50% - 15px);
+}
+
+
+.testimonial-item2 h3 {
+    font-size: 22px;
+    text-align: center;
+    color: rgb(14, 13, 13);
+    font-weight: 500;
+    margin: 0 0 5px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.testimonial-item2 h5 {
+    pointer-events: none;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    color: rgba(99, 99, 99, 0.575);
+}
+
+.testimonial-item2 .rating {
+    margin-top: 0px;
+    padding-left: 2rem;
+}
+
+.testimonial-item2 .rating i {
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    color: gold;
+    pointer-events: none;
+}
+
+.testimonial-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-item2:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+.testimonial-item .img-box {
+    margin-left: 2rem;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 30px;
+    border: 4px solid gold;
+    border-radius: 50%;
+    position: relative;
+    z-index: 22;
+}
+
+
+.testimonial-item .img-box img {
+    text-align: center;
+    border-radius: 50%;
+    width: 100%;
+}
+
+
+.testimonial-item .img-box i {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background-color: gold;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+    left: calc(100% - 15px);
+    top: calc(50% - 15px);
+}
+
+
+.testimonial-item h3 {
+    font-size: 22px;
+    text-align: center;
+    color: rgb(14, 13, 13);
+    font-weight: 500;
+    margin: 0 0 5px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.testimonial-item h5 {
+    pointer-events: none;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    color: rgba(99, 99, 99, 0.575);
+}
+
+.testimonial-item .rating {
+    margin-top: 10px;
+    padding-left: 2rem;
+}
+
+.testimonial-item .rating i {
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    color: gold;
+    pointer-events: none;
+
+}
+
+
+#ustozlar .line11 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    clip-path: polygon(50% 50%, 100% 33%, 100% 0, 0 0, 0 33%);
+    z-index: -33;
+    top: 0%;
+    right: 0;
+    background-color: #161623;
+
+}
+
+#ustozlar .line22 {
+    position: absolute;
+    height: 25%;
+    width: 100%;
+    z-index: -33;
+    bottom: 0%;
+    right: 0;
+    background-color: #161623;
+}
+
+                                            /* tanlovlar end */
+
+                                            /* Bog'lanish start */
+
+
+                                        
+
+
+
+
+.map {
+    padding-top: 13rem;
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, .25);
+    -webkit-transform-style: preserve-3d;
+    transform: translate3d(200, 0, 0);
+    border-radius: 4px;
+}
+
+.map iframe {
+    width: 100%;
+
+}
+
+#contact  .phone {
+    padding-top: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+#contact .phone i {
+    font-size: 60px;
+    margin: 10px 0;
+}
+
+#contact .phone h4 {
+
+    font-size: 25px;
+}
+
+/* Bog'lanish end */
+
+
+#content{
+    background-color: #161623;
+    color: white;
+    text-align: center;
+    
+}
+
+#content h5{
+    font-size: 10px;
+    pointer-events: none;
+}
+
+#content i{
+    font-size: 15px; 
+    margin-right: 0.5rem;
+}
+
+                                            
+                                            
+
+
+
+                                            /* keyframes start */
+
+
+
+@keyframes anime2 {
+    0% {
+        transform: rotate(0deg);
+
+    }
+
+    100% {
+        transform: rotate(360deg);
+
+    }
+}
+
+@keyframes anime3 {
+
+    0%,
+    100% {
+        transform: scale(0.5);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+}
+
+
+@keyframes letter-anime {
+
+
+    60% {
+        transform: translateY(0px);
+
+    }
+
+    80% {
+        transform: translateY(-10px);
+
+    }
+
+    90%,
+    100% {
+        transform: translateY(0px);
+
+    }
+}
+
+
+
+                                                /* keyframes end */
+
+
+
+
+                                                /* media start*/
+
+@media only screen and (max-width: 980px) {
+    #section-padding::before {
+        display: none;
+    }
+
+    .section-title h1 {
+        position: absolute;
+        z-index: -888;
+        left: -25%;
+        top: -45%;
+        color: rgba(250, 250, 250, 0.514) !important;
+        font-size: 200px !important;
+        pointer-events: none;
+    }
+
+
+    #section-padding::before {
+        content: '';
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 700px;
+        background-color: rgba(220, 20, 60, 0.493);
+        clip-path: circle(53.1% at 8% 25%);
+        z-index: -22;
+    }
+
+    #section-padding .line1:nth-child(1) {
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        background-clip: border-box;
+        background-color: transparent;
+        border: 5px solid rgba(220, 20, 60, 0.671);
+        top: 90%;
+        left: -3%;
+        animation: anime2 7s linear infinite;
+    }
+
+    #section-padding .line1:nth-child(2) {
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        top: 15%;
+        right: 0%;
+        background-color: transparent;
+        border-radius: 50%;
+        border: 5px solid rgba(220, 20, 60, 0.671);
+        border-bottom: 5px solid transparent;
+        animation: anime2 7s linear infinite;
+    }
+
+    #section-padding .line1:nth-child(3) {
+        position: absolute;
+        height: 250px;
+        width: 250px;
+        top: 50%;
+        right: calc(80% - 90%);
+        background-color: rgba(220, 20, 60, 0.671);
+        border-radius: 50%;
+        border-bottom: 5px solid transparent;
+        animation: anime3 10s linear infinite;
+    }
+
+    .gallary video {
+        width: 650px;
+        margin-top: 1rem;
+        border-radius: 8px;
+        margin-left: 1rem;
+    }
+
+
+                                                /* Responsiv musobaqalar start */
+
+
+
+
+    #musobaqalar .section-title h1 {
+        position: absolute;
+        z-index: 3;
+        left: 5%;
+        top: 0.1%;
+        color: rgba(250, 250, 250, 0.096) !important;
+        font-size: 130px !important;
+        pointer-events: none;
+    }
+
+    #musobaqalar::before {
+        position: absolute;
+        content: '';
+        width: 700px;
+        height: 650px;
+        clip-path: circle(50% at 13% 11%);
+        background-color: rgba(0, 128, 128, 0.445);
+        top: 0%;
+        left: 0;
+        z-index: -1;
+
+    }
+
+    #musobaqalar::after {
+        position: absolute;
+        content: '';
+        width: 750px;
+        height: 450px;
+        clip-path: circle(50% at 91% 99%);
+        background-color: rgba(0, 128, 128, 0.164);
+        top: 87%;
+        right: 2%;
+        z-index: 1;
+
+    }
+
+    #musobaqalar .line1:nth-child(1) {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background-clip: border-box;
+        background-color: transparent;
+        top: 98%;
+        left: -2%;
+        animation: anime2 7s linear infinite;
+    }
+
+    #musobaqalar .line1:nth-child(2) {
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        top: 6%;
+        right: 2%;
+        background-color: transparent;
+        border-radius: 50%;
+        border-bottom: 5px solid transparent;
+        animation: anime2 7s linear infinite;
+    }
+
+    #musobaqalar .line1:nth-child(3) {
+        position: absolute;
+        height: 300px;
+        width: 300px;
+        top: 30%;
+        right: calc(80% - 95%);
+        background-color: rgba(0, 128, 128, 0.445);
+        border-radius: 50%;
+        border-bottom: 5px solid transparent;
+        animation: anime3 10s linear infinite;
+    }
+
+                                                /* Responsiv Musobaqalar end */
+
+                                                /* Responsiv Tanlovlar start */
+    #projects::before {
+        display: none;
+    }
+
+    #projects .projects-header h1 {
+        position: absolute;
+        z-index: -888;
+        left: -2%;
+        top: -1%;
+        color: rgba(250, 250, 250, 0.082) !important;
+        font-size: 180px !important;
+        pointer-events: none;
+    }
+
+                                                /* Responsiv Tanlovlar end */
+
+                                                /* Responsiv ustozlar start */
+
+    #ustozlar .line11 {
+        display: none;
+
+    }
+
+    #ustozlar {
+        height: 100%;
+    }
+                                                /* Responsiv ustozlar end */
+}
+
+
+
+@media only screen and (max-width:768px) {
+
+    #section-padding::before {
+        display: none;
+    }
+
+    #musobaqalar::before {
+        display: none;
+    }
+
+    #projects::before {
+        display: none;
+    }
+
+    .section-title h1 {
+        position: absolute;
+        z-index: -888;
+        left: 35%;
+        top: -22%;
+        color: rgba(250, 250, 250, 0.514) !important;
+        font-size: 40px !important;
+        pointer-events: none;
+    }
+
+    .gallary video {
+        width: 450px;
+        margin-top: 1rem;
+        border-radius: 8px;
+        margin: 1rem auto;
+    }
+
+
+    #section-padding::before {
+        content: '';
+        position: absolute;
+        top: 0%;
+        left: 2%;
+        width: 50%;
+        height: 20%;
+        background-color: rgba(220, 20, 60, 0.493);
+        clip-path: circle(53.1% at 8% 25%);
+        z-index: -22;
+    }
+
+    #section-padding .line1:nth-child(1) {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background-clip: border-box;
+        background-color: transparent;
+        border: 5px solid rgba(220, 20, 60, 0.671);
+        top: 97%;
+        left: 5%;
+        animation: anime2 7s linear infinite;
+    }
+
+    #section-padding .line1:nth-child(2) {
+        position: absolute;
+        height: 80px;
+        width: 80px;
+        top: 15%;
+        right: 0%;
+        background-color: transparent;
+        border-radius: 50%;
+        border: 5px solid rgba(220, 20, 60, 0.671);
+        border-bottom: 5px solid transparent;
+        animation: anime2 7s linear infinite;
+    }
+
+    #section-padding .line1:nth-child(3) {
+        position: absolute;
+        height: 200px;
+        width: 200px;
+        top: 50%;
+        right: calc(80% - 100%);
+        background-color: rgba(220, 20, 60, 0.671);
+        background-color: rgba(0, 25, 250, 0.671);
+        border-radius: 50%;
+        border-bottom: 5px solid transparent;
+        animation: anime3 10s linear infinite;
+    }
+
+    .section-title h1 {
+        color: rgba(255, 255, 255, 0.096);
+        font-size: 30px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+
+                                                /* musobaqalar */
+
+
+
+    #musobaqalar::before {
+        position: absolute;
+        content: '';
+        width: 400px;
+        height: 400px;
+        clip-path: circle(50% at 13% 11%);
+        background-color: rgba(0, 128, 128, 0.445);
+        top: 0%;
+        left: 0;
+        z-index: -1;
+
+    }
+
+    #musobaqalar .section-title h1 {
+        position: absolute;
+        z-index: 3;
+        left: 25%;
+        top: 1%;
+        color: rgba(250, 250, 250, 0.514) !important;
+        font-size: 40px !important;
+        pointer-events: none;
+    }
+
+    #musobaqalar::after {
+        position: absolute;
+        content: '';
+        width: 600px;
+        height: 400px;
+        clip-path: circle(50% at 91% 99%);
+        background-color: rgba(0, 128, 128, 0.164);
+        top: 87%;
+        right: 2%;
+        z-index: 1;
+
+    }
+
+    #musobaqalar .line1:nth-child(1) {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background-clip: border-box;
+        background-color: transparent;
+        border: 5px solid rgba(7, 23, 255, 0.671);
+        top: 99%;
+        left: -8%;
+        animation: anime2 7s linear infinite;
+    }
+
+    #musobaqalar .line1:nth-child(2) {
+        position: absolute;
+        height: 80px;
+        width: 80px;
+        top: 15%;
+        right: 0%;
+        background-color: transparent;
+        border-radius: 50%;
+        border: 5px solid rgba(220, 20, 60, 0.671);
+        border-bottom: 5px solid transparent;
+        animation: anime2 7s linear infinite;
+    }
+
+    #musobaqalar .line1:nth-child(3) {
+        position: absolute;
+        height: 200px;
+        width: 200px;
+        top: 50%;
+        right: calc(80% - 100%);
+        background-color: rgba(220, 20, 60, 0.671);
+        border-radius: 50%;
+        border-bottom: 5px solid transparent;
+        animation: anime3 10s linear infinite;
+    }
+
+                                                /* Tanlovlar */
+    #projects .projects-header h1 {
+        position: absolute;
+        z-index: -888;
+        left: 33%;
+        top: 1%;
+        color: rgba(250, 250, 250, 0.514) !important;
+        font-size: 40px !important;
+        pointer-events: none;
+    }
+
+                                                /* ustozlar */
+
+    #ustozlar {
+
+        height: 100%;
+    }
+
+
+    .testimonial-item .img-box {
+        margin: auto;
+    }
+
+    .testimonial-item {
+        text-align: center;
+    }
+
+    .testimonial-item .rating {
+        margin-left: -2rem;
+    }
+
+    .testimonial-item2 .img-box {
+        margin: auto;
+    }
+
+    .testimonial-item2 {
+        text-align: center;
+    }
+
+    .testimonial-item2 .rating {
+        margin-left: -2rem;
+    }
+
+}
+
+                                            /* media end */
