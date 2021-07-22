@@ -4,11 +4,15 @@
     box-sizing: border-box;
 }
 
-
-.container-fluid {
-    max-width: 3000px;
-
+html{
+    overflow-x: hidden;
 }
+
+
+/* .container-fluid {
+    max-width: 300px;
+
+} */
 
                                         /* navigation (navbar) start */
 #navbar nav {
@@ -885,7 +889,26 @@ span {
 }
 
                                             /* tanlovlar end */
+                                            /* videolar start */
 
+
+#videos{
+    position: relative;
+}
+.container #for-bg{
+    width: 100%;
+    position: absolute;
+    top: 10px;
+    left: 340px;
+}
+
+.container #for-bg svg{
+    width: 50%;
+   
+}
+
+
+                                            /* videolar end */
                                             /* Bog'lanish start */
 
 
@@ -1014,6 +1037,9 @@ span {
                                                 /* media start*/
 
 @media only screen and (max-width: 980px) {
+    html{
+        overflow-x: hidden;
+    }
     #section-padding::before {
         display: none;
     }
@@ -1196,6 +1222,9 @@ span {
 
 
 @media only screen and (max-width:768px) {
+    html{
+        overflow-x: hidden;
+    }
 
     #section-padding::before {
         display: none;
